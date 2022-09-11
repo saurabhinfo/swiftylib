@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		DC56D18828CE0B4E00B3B907 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18728CE0B4E00B3B907 /* TestFile.swift */; };
 		DC56D18A28CE0C9600B3B907 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */; };
+		DC56D18B28CE119000B3B907 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */; };
+		DC56D18C28CE119100B3B907 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */; };
+		DC56D18D28CE119200B3B907 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */; };
 		DC9458E328CDDB8300C84BAB /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */; };
 		DC9458E928CDDB8300C84BAB /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */; };
 		DC9458EE28CDDB8300C84BAB /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458ED28CDDB8300C84BAB /* SwiftyLibTests.swift */; };
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9458EE28CDDB8300C84BAB /* SwiftyLibTests.swift in Sources */,
+				DC56D18B28CE119000B3B907 /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC94590A28CDF8C700C84BAB /* ContentView.swift in Sources */,
+				DC56D18C28CE119100B3B907 /* SwiftyLib.swift in Sources */,
 				DC94590828CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC94590B28CDF8C700C84BAB /* ContentView.swift in Sources */,
+				DC56D18D28CE119200B3B907 /* SwiftyLib.swift in Sources */,
 				DC94590928CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
