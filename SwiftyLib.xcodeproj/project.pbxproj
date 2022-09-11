@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC9458E328CDDB8300C84BAB /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */; };
+		DC9458E928CDDB8300C84BAB /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */; };
+		DC9458EE28CDDB8300C84BAB /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458ED28CDDB8300C84BAB /* SwiftyLibTests.swift */; };
+		DC9458EF28CDDB8300C84BAB /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9458E128CDDB8300C84BAB /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC94590828CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458F928CDF8C400C84BAB /* SwiftyLibExampleApp.swift */; };
+		DC94590928CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458F928CDF8C400C84BAB /* SwiftyLibExampleApp.swift */; };
+		DC94590A28CDF8C700C84BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458FA28CDF8C400C84BAB /* ContentView.swift */; };
+		DC94590B28CDF8C700C84BAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458FA28CDF8C400C84BAB /* ContentView.swift */; };
+		DC94590C28CDF8C700C84BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9458FB28CDF8C700C84BAB /* Assets.xcassets */; };
+		DC94590D28CDF8C700C84BAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9458FB28CDF8C700C84BAB /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC9458EA28CDDB8300C84BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC9458D528CDDB8300C84BAB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC9458DD28CDDB8300C84BAB;
+			remoteInfo = SwiftyLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9458E128CDDB8300C84BAB /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
+		DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLib.docc; sourceTree = "<group>"; };
+		DC9458E828CDDB8300C84BAB /* SwiftyLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9458ED28CDDB8300C84BAB /* SwiftyLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibTests.swift; sourceTree = "<group>"; };
+		DC9458F928CDF8C400C84BAB /* SwiftyLibExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLibExampleApp.swift; sourceTree = "<group>"; };
+		DC9458FA28CDF8C400C84BAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC9458FB28CDF8C700C84BAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC94590028CDF8C700C84BAB /* SwiftyLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC94590528CDF8C700C84BAB /* SwiftyLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC94590728CDF8C700C84BAB /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC9458DB28CDDB8300C84BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458E528CDDB8300C84BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9458E928CDDB8300C84BAB /* SwiftyLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458FD28CDF8C700C84BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC94590228CDF8C700C84BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC9458D428CDDB8300C84BAB = {
+			isa = PBXGroup;
+			children = (
+				DC9458E028CDDB8300C84BAB /* SwiftyLib */,
+				DC9458EC28CDDB8300C84BAB /* SwiftyLibTests */,
+				DC9458F828CDF8C400C84BAB /* Shared */,
+				DC94590628CDF8C700C84BAB /* macOS */,
+				DC9458DF28CDDB8300C84BAB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC9458DF28CDDB8300C84BAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */,
+				DC9458E828CDDB8300C84BAB /* SwiftyLibTests.xctest */,
+				DC94590028CDF8C700C84BAB /* SwiftyLibExample.app */,
+				DC94590528CDF8C700C84BAB /* SwiftyLibExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9458E028CDDB8300C84BAB /* SwiftyLib */ = {
+			isa = PBXGroup;
+			children = (
+				DC9458E128CDDB8300C84BAB /* SwiftyLib.h */,
+				DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */,
+			);
+			path = SwiftyLib;
+			sourceTree = "<group>";
+		};
+		DC9458EC28CDDB8300C84BAB /* SwiftyLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC9458ED28CDDB8300C84BAB /* SwiftyLibTests.swift */,
+			);
+			path = SwiftyLibTests;
+			sourceTree = "<group>";
+		};
+		DC9458F828CDF8C400C84BAB /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DC9458F928CDF8C400C84BAB /* SwiftyLibExampleApp.swift */,
+				DC9458FA28CDF8C400C84BAB /* ContentView.swift */,
+				DC9458FB28CDF8C700C84BAB /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		DC94590628CDF8C700C84BAB /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DC94590728CDF8C700C84BAB /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DC9458D928CDDB8300C84BAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9458EF28CDDB8300C84BAB /* SwiftyLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DC9458DD28CDDB8300C84BAB /* SwiftyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9458F228CDDB8300C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLib" */;
+			buildPhases = (
+				DC9458D928CDDB8300C84BAB /* Headers */,
+				DC9458DA28CDDB8300C84BAB /* Sources */,
+				DC9458DB28CDDB8300C84BAB /* Frameworks */,
+				DC9458DC28CDDB8300C84BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyLib;
+			productName = SwiftyLib;
+			productReference = DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC9458E728CDDB8300C84BAB /* SwiftyLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC9458F528CDDB8300C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibTests" */;
+			buildPhases = (
+				DC9458E428CDDB8300C84BAB /* Sources */,
+				DC9458E528CDDB8300C84BAB /* Frameworks */,
+				DC9458E628CDDB8300C84BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC9458EB28CDDB8300C84BAB /* PBXTargetDependency */,
+			);
+			name = SwiftyLibTests;
+			productName = SwiftyLibTests;
+			productReference = DC9458E828CDDB8300C84BAB /* SwiftyLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC9458FF28CDF8C700C84BAB /* SwiftyLibExample (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC94590E28CDF8C700C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibExample (iOS)" */;
+			buildPhases = (
+				DC9458FC28CDF8C700C84BAB /* Sources */,
+				DC9458FD28CDF8C700C84BAB /* Frameworks */,
+				DC9458FE28CDF8C700C84BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyLibExample (iOS)";
+			productName = "SwiftyLibExample (iOS)";
+			productReference = DC94590028CDF8C700C84BAB /* SwiftyLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC94590428CDF8C700C84BAB /* SwiftyLibExample (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC94591128CDF8C700C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibExample (macOS)" */;
+			buildPhases = (
+				DC94590128CDF8C700C84BAB /* Sources */,
+				DC94590228CDF8C700C84BAB /* Frameworks */,
+				DC94590328CDF8C700C84BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftyLibExample (macOS)";
+			productName = "SwiftyLibExample (macOS)";
+			productReference = DC94590528CDF8C700C84BAB /* SwiftyLibExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC9458D528CDDB8300C84BAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DC9458DD28CDDB8300C84BAB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DC9458E728CDDB8300C84BAB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DC9458FF28CDF8C700C84BAB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DC94590428CDF8C700C84BAB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = DC9458D828CDDB8300C84BAB /* Build configuration list for PBXProject "SwiftyLib" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC9458D428CDDB8300C84BAB;
+			productRefGroup = DC9458DF28CDDB8300C84BAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC9458DD28CDDB8300C84BAB /* SwiftyLib */,
+				DC9458E728CDDB8300C84BAB /* SwiftyLibTests */,
+				DC9458FF28CDF8C700C84BAB /* SwiftyLibExample (iOS) */,
+				DC94590428CDF8C700C84BAB /* SwiftyLibExample (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC9458DC28CDDB8300C84BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458E628CDDB8300C84BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458FE28CDF8C700C84BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC94590C28CDF8C700C84BAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC94590328CDF8C700C84BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC94590D28CDF8C700C84BAB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC9458DA28CDDB8300C84BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9458E328CDDB8300C84BAB /* SwiftyLib.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458E428CDDB8300C84BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9458EE28CDDB8300C84BAB /* SwiftyLibTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC9458FC28CDF8C700C84BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC94590A28CDF8C700C84BAB /* ContentView.swift in Sources */,
+				DC94590828CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC94590128CDF8C700C84BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC94590B28CDF8C700C84BAB /* ContentView.swift in Sources */,
+				DC94590928CDF8C700C84BAB /* SwiftyLibExampleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC9458EB28CDDB8300C84BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC9458DD28CDDB8300C84BAB /* SwiftyLib */;
+			targetProxy = DC9458EA28CDDB8300C84BAB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC9458F028CDDB8300C84BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DC9458F128CDDB8300C84BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC9458F328CDDB8300C84BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9458F428CDDB8300C84BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLib;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC9458F628CDDB8300C84BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9458F728CDDB8300C84BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC94590F28CDF8C700C84BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibExample;
+				PRODUCT_NAME = SwiftyLibExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC94591028CDF8C700C84BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibExample;
+				PRODUCT_NAME = SwiftyLibExample;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC94591228CDF8C700C84BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibExample;
+				PRODUCT_NAME = SwiftyLibExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DC94591328CDF8C700C84BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X929C8Q558;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testing.SwiftyLibExample;
+				PRODUCT_NAME = SwiftyLibExample;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC9458D828CDDB8300C84BAB /* Build configuration list for PBXProject "SwiftyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9458F028CDDB8300C84BAB /* Debug */,
+				DC9458F128CDDB8300C84BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9458F228CDDB8300C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9458F328CDDB8300C84BAB /* Debug */,
+				DC9458F428CDDB8300C84BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC9458F528CDDB8300C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9458F628CDDB8300C84BAB /* Debug */,
+				DC9458F728CDDB8300C84BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC94590E28CDF8C700C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibExample (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC94590F28CDF8C700C84BAB /* Debug */,
+				DC94591028CDF8C700C84BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC94591128CDF8C700C84BAB /* Build configuration list for PBXNativeTarget "SwiftyLibExample (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC94591228CDF8C700C84BAB /* Debug */,
+				DC94591328CDF8C700C84BAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC9458D528CDDB8300C84BAB /* Project object */;
+}
