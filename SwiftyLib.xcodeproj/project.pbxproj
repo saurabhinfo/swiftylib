@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC56D18828CE0B4E00B3B907 /* TestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18728CE0B4E00B3B907 /* TestFile.swift */; };
+		DC56D18A28CE0C9600B3B907 /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */; };
 		DC9458E328CDDB8300C84BAB /* SwiftyLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */; };
 		DC9458E928CDDB8300C84BAB /* SwiftyLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */; };
 		DC9458EE28CDDB8300C84BAB /* SwiftyLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9458ED28CDDB8300C84BAB /* SwiftyLibTests.swift */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC56D18728CE0B4E00B3B907 /* TestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFile.swift; sourceTree = "<group>"; };
+		DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 		DC9458DE28CDDB8300C84BAB /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9458E128CDDB8300C84BAB /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftyLib.docc; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 			children = (
 				DC9458E128CDDB8300C84BAB /* SwiftyLib.h */,
 				DC9458E228CDDB8300C84BAB /* SwiftyLib.docc */,
+				DC56D18728CE0B4E00B3B907 /* TestFile.swift */,
+				DC56D18928CE0C9600B3B907 /* SwiftyLib.swift */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -301,6 +307,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9458E328CDDB8300C84BAB /* SwiftyLib.docc in Sources */,
+				DC56D18A28CE0C9600B3B907 /* SwiftyLib.swift in Sources */,
+				DC56D18828CE0B4E00B3B907 /* TestFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +528,7 @@
 		DC9458F628CDDB8300C84BAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X929C8Q558;
@@ -536,6 +545,7 @@
 		DC9458F728CDDB8300C84BAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = X929C8Q558;
